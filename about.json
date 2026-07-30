@@ -1,0 +1,40 @@
+{
+  "tag": "about",
+  "headline": ["PRECISION", "ABOVE", "EVERYTHING."],
+  "paragraph1": "Backend and System Engineer with an architecture-first mindset. Focused on building scalable, reliable, and high-performance systems — from low-level implementation details to high-level distributed architectures.",
+  "paragraph2": "From Java/Spring and Rust ecosystems to high-throughput messaging and databases. Every layer is engineered for long-term stability, minimal latency, and effortless scale.",
+  "stats": [
+    { "num": "48+", "label": "Projects" },
+    { "num": "6", "label": "years of practical experience" },
+    { "num": "100%", "label": "focus on performance & scale" }
+  ],
+  "nodes": [
+    { "id": "core", "label": "watashi", "x": 210, "y": 155, "r": 20, "main": true },
+    { "id": "be", "label": "Backend", "x": 330, "y": 80, "r": 12 },
+    { "id": "arch", "label": "Architecture", "x": 90, "y": 80, "r": 12 },
+    { "id": "data", "label": "Data & Cache", "x": 70, "y": 210, "r": 10 },
+    { "id": "msg", "label": "Messaging", "x": 350, "y": 210, "r": 10 },
+    { "id": "systems", "label": "Low-Level", "x": 130, "y": 285, "r": 9 },
+    { "id": "devops", "label": "DevOps & Infra", "x": 290, "y": 285, "r": 9 },
+    { "id": "java", "label": "Java / Spring", "x": 405, "y": 35, "r": 5, "small": true },
+    { "id": "node", "label": "Node / Bun", "x": 410, "y": 110, "r": 5, "small": true },
+    { "id": "dist", "label": "Distributed", "x": 15, "y": 35, "r": 5, "small": true },
+    { "id": "rest", "label": "REST & APIs", "x": 135, "y": 25, "r": 5, "small": true },
+    { "id": "postgres", "label": "PostgreSQL", "x": 15, "y": 165, "r": 5, "small": true },
+    { "id": "redis", "label": "Redis", "x": 20, "y": 260, "r": 5, "small": true },
+    { "id": "kafka", "label": "Kafka", "x": 415, "y": 165, "r": 5, "small": true },
+    { "id": "rabbitmq", "label": "RabbitMQ", "x": 410, "y": 260, "r": 5, "small": true },
+    { "id": "rust", "label": "Rust & C", "x": 60, "y": 320, "r": 5, "small": true },
+    { "id": "docker", "label": "Docker & K8s", "x": 360, "y": 320, "r": 5, "small": true }
+  ],
+  "edges": [
+    ["core","be"], ["core","arch"], ["core","data"], ["core","msg"], ["core","systems"], ["core","devops"],
+    ["be","java"], ["be","node"],
+    ["arch","dist"], ["arch","rest"],
+    ["data","postgres"], ["data","redis"],
+    ["msg","kafka"], ["msg","rabbitmq"],
+    ["systems","rust"],
+    ["devops","docker"],
+    ["be","arch"], ["data","msg"], ["systems","devops"], ["be","msg"], ["arch","data"]
+  ]
+}

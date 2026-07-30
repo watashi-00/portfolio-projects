@@ -1,4 +1,7 @@
 {
   "version": "1.0",
+  "hero": "hero.json",
+  "about": "about.json",
+  "contact": "contact.json",
   "projects": ["gatebridge.json"]
 }
