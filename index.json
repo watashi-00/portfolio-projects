@@ -12,7 +12,6 @@
     "gpu-setup.json",
     "xnv.json",
     "poc-chatgpt-scraper.json",
-    "tbh-overlay.json",
     "polyglot-dsa.json"
   ]
 }
