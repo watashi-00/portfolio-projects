@@ -1,7 +1,7 @@
 {
   "tag": "about",
   "headline": ["PRECISION", "ABOVE", "EVERYTHING."],
-  "paragraph1": "Backend and System Engineer with an architecture-first mindset. Focused on building scalable, reliable, and high-performance systems — from low-level implementation details to high-level distributed architectures.",
+  "paragraph1": "Backend and System Engineer with an architecture-first mindset. Focused on building scalable, reliable, and high-performance systems - from low-level implementation details to high-level distributed architectures.",
   "paragraph2": "From Java/Spring and Rust ecosystems to high-throughput messaging and databases. Every layer is engineered for long-term stability, minimal latency, and effortless scale.",
   "stats": [
     { "num": "48+", "label": "Projects" },
