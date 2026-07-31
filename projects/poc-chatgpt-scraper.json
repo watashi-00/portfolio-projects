@@ -6,6 +6,7 @@
   "desc": "Proof of Concept turning a single headful ChatGPT session into a real-time multiplayer chat room. Uses Chrome DevTools Protocol (CDP), Puppeteer DOM scraping, and WebSockets to route concurrent user messages.",
   "tags": ["JavaScript", "Node.js", "Puppeteer CDP", "WebSockets", "Scraping", "Real-Time Systems"],
   "github": "https://github.com/watashi-00/poc-chatgpt-collaborative-scraper",
+  "link": "none",
   "featured": true,
   "visual": {
     "type": "svg",

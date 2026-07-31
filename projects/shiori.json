@@ -5,7 +5,8 @@
   "year": "2026",
   "desc": "Scalable backend infrastructure and AI study orchestrator built as a Bun Monorepo. Features decoupled clients (Web Dashboard SPA, Discord Bot), REST API with ElysiaJS, Drizzle ORM (PostgreSQL + pgvector), Redis caching, and RAG document analysis pipelines.",
   "tags": ["Bun Monorepo", "ElysiaJS", "TypeScript", "Drizzle ORM", "PostgreSQL", "pgvector", "Redis", "RAG Engine"],
-  "github": "https://github.com/watashi-00/Shiori",
+  "github": "private",
+  "link": "https://shiori.hexacloud.net.br",
   "featured": true,
   "visual": {
     "type": "svg",

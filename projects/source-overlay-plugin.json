@@ -6,6 +6,7 @@
   "desc": "Custom Maven build plugin enabling multi-JDK target compilation through cascading source code overlays. Merges version-specific Java source overrides (e.g., Java 8, 17, 21) dynamically during the generate-sources phase without code duplication.",
   "tags": ["Java", "Maven Plugin", "Build Tooling", "Multi-Release JAR", "Cross-Compilation", "DevOps"],
   "github": "https://github.com/watashi-00/source-overlay-plugin",
+  "link": "none",
   "featured": true,
   "visual": {
     "type": "svg",

@@ -6,6 +6,7 @@
   "desc": "Zero-backend dynamic portfolio architecture driven directly by a public GitHub repository. Fetches site copy, project visual schemas, and standalone SVGs via GitHub Raw CDN with client-side localStorage caching and instant query parameter cache invalidation.",
   "tags": ["React 19", "TypeScript", "Vite", "Tailwind CSS v4", "GitHub Raw CDN", "Serverless CMS", "localStorage Cache"],
   "github": "https://github.com/watashi-00/ModularDesignSystemWithAnimations",
+  "link": "none",
   "featured": true,
   "visual": {
     "type": "svg",

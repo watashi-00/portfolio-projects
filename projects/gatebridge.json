@@ -6,6 +6,7 @@
   "desc": "Lightweight Java cluster gateway framework with DevOps TUI panel. Supports Virtual Thread (Loom) concurrency, high-throughput dynamic routing, and pub/sub autodiscovery.",
   "tags": ["Java", "Loom", "Virtual Threads", "Cluster Gateway", "Pub/Sub", "TUI Panel"],
   "github": "https://github.com/watashi-00/GateBridge",
+  "link": "none",
   "featured": true,
   "visual": {
     "type": "svg",

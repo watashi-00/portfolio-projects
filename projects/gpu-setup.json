@@ -6,6 +6,7 @@
   "desc": "Interactive CLI hardware manager for Linux GPU driver initialization, kernel module configuration, and Hyprland/Wayland display server performance tuning.",
   "tags": ["Shell", "Linux Kernel", "GPU Drivers", "Wayland", "CLI Tooling", "Hardware Automation"],
   "github": "https://github.com/watashi-00/gpu_setup",
+  "link": "none",
   "featured": true,
   "visual": {
     "type": "svg",

@@ -5,7 +5,8 @@
   "year": "2026",
   "desc": "High-performance multi-account Telegram automator, social warmup client, and anti-detect HTTP ad-traffic orchestrator designed for concurrent task execution and session rotation.",
   "tags": ["Node.js", "JavaScript", "Network Orchestration", "Telegram API", "HTTP Proxy", "Automation"],
-  "github": "https://github.com/watashi-00/XnV",
+  "github": "private",
+  "link": "none",
   "featured": true,
   "visual": {
     "type": "svg",
