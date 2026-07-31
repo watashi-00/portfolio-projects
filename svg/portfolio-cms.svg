@@ -24,10 +24,10 @@
     <text x="92.5" y="89" text-anchor="middle" fill="rgba(255,255,255,0.18)" font-size="6" font-family="JetBrains Mono, monospace">watashi-00/portfolio-projects</text>
 
     <line x1="45" y1="102" x2="140" y2="102" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
-    <text x="50" y="116" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">📄 index.json</text>
-    <text x="50" y="132" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">📁 projects/*.json</text>
-    <text x="50" y="148" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">📁 svg/*.svg</text>
-    <text x="50" y="164" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">📄 hero/about/contact</text>
+    <text x="50" y="116" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">index.json</text>
+    <text x="50" y="132" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">projects/*.json</text>
+    <text x="50" y="148" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">svg/*.svg</text>
+    <text x="50" y="164" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">hero / about / contact</text>
   </g>
 
   {/* CONNECTOR REPO -> CDN */}
@@ -53,10 +53,10 @@
     <text x="450" y="89" text-anchor="middle" fill="rgba(255,255,255,0.18)" font-size="6" font-family="JetBrains Mono, monospace">Vite + Tailwind v4</text>
 
     <line x1="405" y1="102" x2="495" y2="102" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
-    <text x="410" y="116" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">⚡ portfolioDataService</text>
-    <text x="410" y="132" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">💾 localStorage Cache</text>
-    <text x="410" y="148" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">🎨 Dynamic SVG Render</text>
-    <text x="410" y="164" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">🚀 Zero-Rebuild Updates</text>
+    <text x="410" y="116" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">portfolioDataService</text>
+    <text x="410" y="132" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">localStorage Cache</text>
+    <text x="410" y="148" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">Dynamic SVG Render</text>
+    <text x="410" y="164" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">Zero-Rebuild Updates</text>
   </g>
 
   {/* FOOTER DASHED BUS */}

@@ -20,10 +20,10 @@
     <text x="92.5" y="89" text-anchor="middle" fill="rgba(255,255,255,0.18)" font-size="6" font-family="JetBrains Mono, monospace">One-Click Setup Core</text>
 
     <line x1="45" y1="102" x2="140" y2="102" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
-    <text x="50" y="116" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">🐍 Python Orchestrator</text>
-    <text x="50" y="132" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">📜 Shell Automation</text>
-    <text x="50" y="148" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">🎨 Wall-Sync Engine</text>
-    <text x="50" y="164" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">🧩 Widget Compiler</text>
+    <text x="50" y="116" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">[PY] Python Orchestrator</text>
+    <text x="50" y="132" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">[SH] Shell Automation</text>
+    <text x="50" y="148" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">[UI] Wall-Sync Engine</text>
+    <text x="50" y="164" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">[MOD] Widget Compiler</text>
   </g>
 
   <path d="M 150 125 L 195 125" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.7" stroke-dasharray="3,3"/>
@@ -52,10 +52,10 @@
     <text x="450" y="89" text-anchor="middle" fill="rgba(255,255,255,0.18)" font-size="6" font-family="JetBrains Mono, monospace">Aesthetic UI Modules</text>
 
     <line x1="405" y1="102" x2="495" y2="102" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
-    <text x="410" y="116" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">📊 CPU / RAM Monitor</text>
-    <text x="410" y="132" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">🎵 Media Player Bar</text>
-    <text x="410" y="148" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">🌐 Network Status</text>
-    <text x="410" y="164" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">🔔 Notification Center</text>
+    <text x="410" y="116" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">CPU / RAM Monitor</text>
+    <text x="410" y="132" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">Media Player Bar</text>
+    <text x="410" y="148" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">Network Status</text>
+    <text x="410" y="164" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">Notification Center</text>
   </g>
 
   <line x1="45" y1="225" x2="495" y2="225" stroke="rgba(255,255,255,0.12)" stroke-width="0.6" stroke-dasharray="4,4"/>
