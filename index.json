@@ -5,6 +5,7 @@
   "contact": "contact.json",
   "projects": [
     "gatebridge.json",
-    "shiori.json"
+    "shiori.json",
+    "source-overlay-plugin.json"
   ]
 }
