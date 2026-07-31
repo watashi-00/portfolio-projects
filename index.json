@@ -7,6 +7,10 @@
     "gatebridge.json",
     "shiori.json",
     "source-overlay-plugin.json",
-    "portfolio-cms.json"
+    "portfolio-cms.json",
+    "aiko-hypr-setup.json",
+    "gpu-setup.json",
+    "xnv.json",
+    "poc-chatgpt-scraper.json"
   ]
 }

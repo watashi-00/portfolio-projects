@@ -1,0 +1,14 @@
+{
+  "id": "05",
+  "title": "AikoHyprSetup",
+  "category": "Linux Systems & Environment Automation",
+  "year": "2026",
+  "desc": "Fully automated desktop environment installer and theme manager for Hyprland and Waybar on Linux. Features dynamic wall-sync theme engine, interactive desktop widgets, and modular system shell automation.",
+  "tags": ["Python", "Shell", "Hyprland", "Waybar", "Wayland", "Linux Systems", "Desktop Automation"],
+  "github": "https://github.com/watashi-00/AikoHyprSetup",
+  "featured": true,
+  "visual": {
+    "type": "svg",
+    "path": "svg/aiko-hypr-setup.svg"
+  }
+}

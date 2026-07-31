@@ -1,0 +1,14 @@
+{
+  "id": "07",
+  "title": "XnV Traffic Orchestrator",
+  "category": "High-Throughput Automation & Network Orchestration",
+  "year": "2026",
+  "desc": "High-performance multi-account Telegram automator, social warmup client, and anti-detect HTTP ad-traffic orchestrator designed for concurrent task execution and session rotation.",
+  "tags": ["Node.js", "JavaScript", "Network Orchestration", "Telegram API", "HTTP Proxy", "Automation"],
+  "github": "https://github.com/watashi-00/XnV",
+  "featured": true,
+  "visual": {
+    "type": "svg",
+    "path": "svg/xnv.svg"
+  }
+}
