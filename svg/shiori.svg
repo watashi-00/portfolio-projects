@@ -1,74 +1,63 @@
 <svg viewBox="0 0 540 260" class="w-full h-full" preserveAspectRatio="xMidYMid slice">
   <defs>
-    <pattern id="grid-shiori-clean" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="0.4"/>
+    <pattern id="grid-dots-shiori" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.5" fill="rgba(255,255,255,0.08)"/>
     </pattern>
   </defs>
 
-  {/* Background Grid */}
-  <rect width="540" height="260" fill="url(#grid-shiori-clean)"/>
+  <rect width="540" height="260" fill="#020202"/>
+  <rect width="540" height="260" fill="url(#grid-dots-shiori)"/>
 
-  {/* Outer Frame */}
-  <rect x="15" y="15" width="510" height="230" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+  {/* Frame & Corner Accents */}
+  <rect x="20" y="20" width="500" height="220" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <path d="M 20 30 L 20 20 L 30 20" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <path d="M 520 30 L 520 20 L 510 20" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <path d="M 20 230 L 20 240 L 30 240" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <path d="M 520 230 L 520 240 L 510 240" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
 
-  {/* Crosshairs */}
-  <g><line x1="11" y1="15" x2="19" y2="15" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/><line x1="15" y1="11" x2="15" y2="19" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/></g>
-  <g><line x1="521" y1="15" x2="529" y2="15" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/><line x1="525" y1="11" x2="525" y2="19" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/></g>
-  <g><line x1="11" y1="245" x2="19" y2="245" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/><line x1="15" y1="241" x2="15" y2="249" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/></g>
-  <g><line x1="521" y1="245" x2="529" y2="245" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/><line x1="525" y1="241" x2="525" y2="249" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/></g>
-
-  {/* DECOUPLED CLIENTS (LEFT) */}
+  {/* CLIENT INSTANCES (LEFT) */}
   <g>
-    <rect x="35" y="55" width="110" height="40" rx="2" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="0.6"/>
-    <circle cx="50" cy="75" r="3" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.6"/>
-    <text x="60" y="78" fill="rgba(255,255,255,0.3)" font-size="7.5" font-family="JetBrains Mono, monospace">WEB DASHBOARD</text>
-  </g>
-  <g>
-    <rect x="35" y="110" width="110" height="40" rx="2" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="0.6"/>
-    <circle cx="50" cy="130" r="3" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.6"/>
-    <text x="60" y="133" fill="rgba(255,255,255,0.3)" font-size="7.5" font-family="JetBrains Mono, monospace">DISCORD CLIENT</text>
-  </g>
-  <g>
-    <rect x="35" y="165" width="110" height="40" rx="2" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="0.6"/>
-    <circle cx="50" cy="185" r="3" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.6"/>
-    <text x="60" y="188" fill="rgba(255,255,255,0.3)" font-size="7.5" font-family="JetBrains Mono, monospace">REST CLIENTS</text>
+    <rect x="45" y="65" width="105" height="45" rx="1" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.15)" stroke-width="0.8"/>
+    <text x="97.5" y="86" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="7.5" font-family="JetBrains Mono, monospace">DISCORD BOT</text>
+    <text x="97.5" y="97" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="6" font-family="JetBrains Mono, monospace">Client Client 01</text>
   </g>
 
-  {/* CLIENT CONNECTORS -> INGRESS */}
-  <path d="M 145 75 L 195 130" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.6"/>
-  <path d="M 145 130 L 195 130" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.6" stroke-dasharray="3,3"/>
-  <path d="M 145 185 L 195 130" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.6"/>
-
-  {/* CORE BUN MONOREPO / ELYSIA API (CENTER) */}
-  <rect x="195" y="55" width="150" height="150" rx="3" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.25)" stroke-width="0.9"/>
-  <text x="270" y="78" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="9.5" font-family="JetBrains Mono, monospace">BUN INFRASTRUCTURE</text>
-  <text x="270" y="90" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="7" font-family="JetBrains Mono, monospace">ElysiaJS API &amp; Worker</text>
-
-  {/* Internal Services List */}
-  <g><line x1="210" y1="110" x2="330" y2="110" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="222" cy="110" r="2" fill="rgba(255,255,255,0.3)"/><text x="232" y="113" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">apps/api (ElysiaJS)</text></g>
-  <g><line x1="210" y1="128" x2="330" y2="128" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="222" cy="128" r="2" fill="rgba(255,255,255,0.3)"/><text x="232" y="131" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">apps/ai (RAG / Vector)</text></g>
-  <g><line x1="210" y1="146" x2="330" y2="146" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="222" cy="146" r="2" fill="rgba(255,255,255,0.3)"/><text x="232" y="149" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">apps/worker (Scheduler)</text></g>
-  <g><line x1="210" y1="164" x2="330" y2="164" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="222" cy="164" r="2" fill="rgba(255,255,255,0.3)"/><text x="232" y="167" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">packages/database</text></g>
-
-  {/* CORE -> DATA TIER CONNECTORS */}
-  <path d="M 345 100 L 395 80" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.6"/>
-  <path d="M 345 160 L 395 180" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.6"/>
-
-  {/* DATA & INFRASTRUCTURE TIER (RIGHT) */}
   <g>
-    <rect x="395" y="55" width="110" height="50" rx="2" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="0.6"/>
-    <circle cx="410" cy="80" r="3" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.6"/>
-    <text x="420" y="78" fill="rgba(255,255,255,0.3)" font-size="7.5" font-family="JetBrains Mono, monospace">POSTGRES DB</text>
-    <text x="420" y="88" fill="rgba(255,255,255,0.18)" font-size="6" font-family="JetBrains Mono, monospace">+ pgvector (RAG)</text>
-  </g>
-  <g>
-    <rect x="395" y="155" width="110" height="50" rx="2" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="0.6"/>
-    <circle cx="410" cy="180" r="3" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.6"/>
-    <text x="420" y="178" fill="rgba(255,255,255,0.3)" font-size="7.5" font-family="JetBrains Mono, monospace">REDIS CACHE</text>
-    <text x="420" y="188" fill="rgba(255,255,255,0.18)" font-size="6" font-family="JetBrains Mono, monospace">&amp; Queue Worker</text>
+    <rect x="45" y="150" width="105" height="45" rx="1" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.15)" stroke-width="0.8"/>
+    <text x="97.5" y="171" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="7.5" font-family="JetBrains Mono, monospace">WEB DASHBOARD</text>
+    <text x="97.5" y="182" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="6" font-family="JetBrains Mono, monospace">React SPA Client 02</text>
   </g>
 
-  {/* BUS DECORATION */}
-  <line x1="45" y1="225" x2="495" y2="225" stroke="rgba(255,255,255,0.12)" stroke-width="0.6" stroke-dasharray="4,4"/>
-  <text x="270" y="237" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="7.5" font-family="JetBrains Mono, monospace">DECOUPLED MONOREPO INFRASTRUCTURE</text>
+  {/* CONNECTORS LEFT -> CENTER */}
+  <path d="M 150 87.5 L 205 130" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.7"/>
+  <path d="M 150 172.5 L 205 130" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.7"/>
+
+  {/* SHIORI MONOREPO CORE (CENTER) */}
+  <rect x="205" y="55" width="150" height="150" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="280" y="80" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="9" font-family="JetBrains Mono, monospace" font-weight="bold" letter-spacing="1">SHIORI MONOREPO</text>
+  <text x="280" y="93" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">Bun Runtime Architecture</text>
+
+  <g><line x1="220" y1="115" x2="340" y2="115" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="230" cy="115" r="2" fill="rgba(255,255,255,0.7)"/><text x="240" y="118" fill="rgba(255,255,255,0.35)" font-size="6.5" font-family="JetBrains Mono, monospace">ElysiaJS REST Router</text></g>
+  <g><line x1="220" y1="135" x2="340" y2="135" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="230" cy="135" r="2" fill="rgba(255,255,255,0.7)"/><text x="240" y="138" fill="rgba(255,255,255,0.35)" font-size="6.5" font-family="JetBrains Mono, monospace">Drizzle ORM Engine</text></g>
+  <g><line x1="220" y1="155" x2="340" y2="155" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="230" cy="155" r="2" fill="rgba(255,255,255,0.7)"/><text x="240" y="158" fill="rgba(255,255,255,0.35)" font-size="6.5" font-family="JetBrains Mono, monospace">RAG Vector Pipeline</text></g>
+  <g><line x1="220" y1="175" x2="340" y2="175" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="230" cy="175" r="2" fill="rgba(255,255,255,0.7)"/><text x="240" y="178" fill="rgba(255,255,255,0.35)" font-size="6.5" font-family="JetBrains Mono, monospace">Decoupled Packages</text></g>
+
+  {/* CONNECTORS CENTER -> RIGHT */}
+  <path d="M 355 115 L 395 87.5" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.7"/>
+  <path d="M 355 155 L 395 172.5" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.7"/>
+
+  {/* INFRASTRUCTURE DATASTORES (RIGHT) */}
+  <g>
+    <rect x="395" y="65" width="105" height="45" rx="1" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.15)" stroke-width="0.8"/>
+    <text x="447.5" y="86" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="7.5" font-family="JetBrains Mono, monospace">POSTGRES DB</text>
+    <text x="447.5" y="97" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="6" font-family="JetBrains Mono, monospace">pgvector Store</text>
+  </g>
+
+  <g>
+    <rect x="395" y="150" width="105" height="45" rx="1" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.15)" stroke-width="0.8"/>
+    <text x="447.5" y="171" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="7.5" font-family="JetBrains Mono, monospace">REDIS CACHE</text>
+    <text x="447.5" y="182" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="6" font-family="JetBrains Mono, monospace">Session Cache</text>
+  </g>
+
+  <text x="270" y="222" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="7" font-family="JetBrains Mono, monospace" letter-spacing="2">// SHIORI BACKEND INFRASTRUCTURE &amp; MONOREPO ARCHITECTURE</text>
 </svg>

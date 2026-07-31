@@ -1,66 +1,64 @@
 <svg viewBox="0 0 540 260" class="w-full h-full" preserveAspectRatio="xMidYMid slice">
   <defs>
-    <pattern id="grid-dsa-clean" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="0.4"/>
+    <pattern id="grid-dots-dsa" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.5" fill="rgba(255,255,255,0.08)"/>
     </pattern>
   </defs>
 
-  <rect width="540" height="260" fill="url(#grid-dsa-clean)"/>
-  <rect x="15" y="15" width="510" height="230" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+  <rect width="540" height="260" fill="#020202"/>
+  <rect width="540" height="260" fill="url(#grid-dots-dsa)"/>
 
-  <g><line x1="11" y1="15" x2="19" y2="15" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/><line x1="15" y1="11" x2="15" y2="19" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/></g>
-  <g><line x1="521" y1="15" x2="529" y2="15" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/><line x1="525" y1="11" x2="525" y2="19" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/></g>
-  <g><line x1="11" y1="245" x2="19" y2="245" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/><line x1="15" y1="241" x2="15" y2="249" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/></g>
-  <g><line x1="521" y1="245" x2="529" y2="245" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/><line x1="525" y1="241" x2="525" y2="249" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/></g>
+  {/* Frame & Corner Accents */}
+  <rect x="20" y="20" width="500" height="220" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <path d="M 20 30 L 20 20 L 30 20" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <path d="M 520 30 L 520 20 L 510 20" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <path d="M 20 230 L 20 240 L 30 240" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <path d="M 520 230 L 520 240 L 510 240" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
 
   {/* STRUCTURES INGRESS (LEFT) */}
   <g>
-    <rect x="35" y="55" width="110" height="40" rx="2" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="0.6"/>
-    <circle cx="50" cy="75" r="3" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.6"/>
-    <text x="60" y="78" fill="rgba(255,255,255,0.3)" font-size="7.5" font-family="JetBrains Mono, monospace">LOCK-FREE QUEUES</text>
+    <rect x="45" y="55" width="105" height="40" rx="1" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.15)" stroke-width="0.8"/>
+    <text x="97.5" y="78" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="7.5" font-family="JetBrains Mono, monospace">LOCK-FREE QUEUES</text>
   </g>
   <g>
-    <rect x="35" y="110" width="110" height="40" rx="2" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="0.6"/>
-    <circle cx="50" cy="130" r="3" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.6"/>
-    <text x="60" y="133" fill="rgba(255,255,255,0.3)" font-size="7.5" font-family="JetBrains Mono, monospace">GRAPH ALGORITHMS</text>
+    <rect x="45" y="110" width="105" height="40" rx="1" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.15)" stroke-width="0.8"/>
+    <text x="97.5" y="133" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="7.5" font-family="JetBrains Mono, monospace">GRAPH ALGORITHMS</text>
   </g>
   <g>
-    <rect x="35" y="165" width="110" height="40" rx="2" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="0.6"/>
-    <circle cx="50" cy="185" r="3" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.6"/>
-    <text x="60" y="188" fill="rgba(255,255,255,0.3)" font-size="7.5" font-family="JetBrains Mono, monospace">TREE BALANCING</text>
+    <rect x="45" y="165" width="105" height="40" rx="1" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.15)" stroke-width="0.8"/>
+    <text x="97.5" y="188" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="7.5" font-family="JetBrains Mono, monospace">TREE BALANCING</text>
   </g>
 
-  <path d="M 145 75 L 195 130" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.6"/>
-  <path d="M 145 130 L 195 130" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.6" stroke-dasharray="3,3"/>
-  <path d="M 145 185 L 195 130" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.6"/>
+  {/* CONNECTORS LEFT -> CENTER */}
+  <path d="M 150 75 L 205 130" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.6"/>
+  <path d="M 150 130 L 205 130" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"/>
+  <path d="M 150 185 L 205 130" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.6"/>
 
   {/* ALGORITHM MONOREPO CORE (CENTER) */}
-  <rect x="195" y="55" width="150" height="150" rx="3" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.25)" stroke-width="0.9"/>
-  <text x="270" y="78" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="9.5" font-family="JetBrains Mono, monospace">POLYGLOT DSA CORE</text>
-  <text x="270" y="90" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="7" font-family="JetBrains Mono, monospace">Java &amp; System Algorithms</text>
+  <rect x="205" y="55" width="150" height="150" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="280" y="80" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="9" font-family="JetBrains Mono, monospace" font-weight="bold" letter-spacing="1">POLYGLOT DSA CORE</text>
+  <text x="280" y="93" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">Java &amp; System Algorithms</text>
 
-  <g><line x1="210" y1="110" x2="330" y2="110" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="222" cy="110" r="2" fill="rgba(255,255,255,0.3)"/><text x="232" y="113" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">Concurrent SkipList / Trees</text></g>
-  <g><line x1="210" y1="128" x2="330" y2="128" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="222" cy="128" r="2" fill="rgba(255,255,255,0.3)"/><text x="232" y="131" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">Dijkstra &amp; A* Pathfinders</text></g>
-  <g><line x1="210" y1="146" x2="330" y2="146" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="222" cy="146" r="2" fill="rgba(255,255,255,0.3)"/><text x="232" y="149" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">Disjoint Set Union (DSU)</text></g>
-  <g><line x1="210" y1="164" x2="330" y2="164" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="222" cy="164" r="2" fill="rgba(255,255,255,0.3)"/><text x="232" y="167" fill="rgba(255,255,255,0.25)" font-size="6.5" font-family="JetBrains Mono, monospace">CAS Lock-Free Benchmarks</text></g>
+  <g><line x1="220" y1="115" x2="340" y2="115" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="230" cy="115" r="2" fill="rgba(255,255,255,0.7)"/><text x="240" y="118" fill="rgba(255,255,255,0.35)" font-size="6.5" font-family="JetBrains Mono, monospace">Concurrent SkipList Trees</text></g>
+  <g><line x1="220" y1="135" x2="340" y2="135" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="230" cy="135" r="2" fill="rgba(255,255,255,0.7)"/><text x="240" y="138" fill="rgba(255,255,255,0.35)" font-size="6.5" font-family="JetBrains Mono, monospace">Dijkstra &amp; A* Pathfinders</text></g>
+  <g><line x1="220" y1="155" x2="340" y2="155" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="230" cy="155" r="2" fill="rgba(255,255,255,0.7)"/><text x="240" y="158" fill="rgba(255,255,255,0.35)" font-size="6.5" font-family="JetBrains Mono, monospace">Disjoint Set Union (DSU)</text></g>
+  <g><line x1="220" y1="175" x2="340" y2="175" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/><circle cx="230" cy="175" r="2" fill="rgba(255,255,255,0.7)"/><text x="240" y="178" fill="rgba(255,255,255,0.35)" font-size="6.5" font-family="JetBrains Mono, monospace">CAS Lock-Free Benchmarks</text></g>
 
-  <path d="M 345 100 L 395 80" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.6"/>
-  <path d="M 345 160 L 395 180" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.6"/>
+  {/* CONNECTORS CENTER -> RIGHT */}
+  <path d="M 355 100 L 395 80" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.6"/>
+  <path d="M 355 160 L 395 180" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.6"/>
 
   {/* BENCHMARK OUTPUT (RIGHT) */}
   <g>
-    <rect x="395" y="55" width="110" height="50" rx="2" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="0.6"/>
-    <circle cx="410" cy="80" r="3" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.6"/>
-    <text x="420" y="78" fill="rgba(255,255,255,0.3)" font-size="7.5" font-family="JetBrains Mono, monospace">JMH BENCHMARKS</text>
-    <text x="420" y="88" fill="rgba(255,255,255,0.18)" font-size="6" font-family="JetBrains Mono, monospace">Ops/sec &amp; Allocation</text>
+    <rect x="395" y="55" width="105" height="50" rx="1" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.15)" stroke-width="0.8"/>
+    <text x="447.5" y="78" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="7.5" font-family="JetBrains Mono, monospace">JMH BENCHMARKS</text>
+    <text x="447.5" y="89" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="6" font-family="JetBrains Mono, monospace">Ops/sec &amp; Allocation</text>
   </g>
   <g>
-    <rect x="395" y="155" width="110" height="50" rx="2" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="0.6"/>
-    <circle cx="410" cy="180" r="3" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.6"/>
-    <text x="420" y="178" fill="rgba(255,255,255,0.3)" font-size="7.5" font-family="JetBrains Mono, monospace">ALGORITHM SUITE</text>
-    <text x="420" y="188" fill="rgba(255,255,255,0.18)" font-size="6" font-family="JetBrains Mono, monospace">Reference Suite</text>
+    <rect x="395" y="155" width="105" height="50" rx="1" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.15)" stroke-width="0.8"/>
+    <text x="447.5" y="178" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="7.5" font-family="JetBrains Mono, monospace">ALGORITHM SUITE</text>
+    <text x="447.5" y="189" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="6" font-family="JetBrains Mono, monospace">Reference Suite</text>
   </g>
 
-  <line x1="45" y1="225" x2="495" y2="225" stroke="rgba(255,255,255,0.12)" stroke-width="0.6" stroke-dasharray="4,4"/>
-  <text x="270" y="237" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="7.5" font-family="JetBrains Mono, monospace">POLYGLOT DATA STRUCTURES AND ALGORITHMS REFERENCE LIBRARY</text>
+  <text x="270" y="222" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="7" font-family="JetBrains Mono, monospace" letter-spacing="2">// POLYGLOT DATA STRUCTURES AND ALGORITHMS REFERENCE LIBRARY</text>
 </svg>
