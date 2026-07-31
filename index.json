@@ -6,6 +6,7 @@
   "projects": [
     "gatebridge.json",
     "shiori.json",
-    "source-overlay-plugin.json"
+    "source-overlay-plugin.json",
+    "portfolio-cms.json"
   ]
 }
