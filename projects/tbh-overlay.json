@@ -1,0 +1,15 @@
+{
+  "id": "09",
+  "title": "TBH Overlay",
+  "category": "System & Game Graphics Overlay Engine",
+  "year": "2026",
+  "desc": "High-performance C graphics overlay and HUD renderer for Linux/X11 and Windows. Features low-latency Direct3D and OpenGL hooks, hardware-accelerated text rendering, and frame timing telemetry.",
+  "tags": ["C", "OpenGL", "Direct3D", "Graphics", "Overlay Engine", "Low-Latency", "Systems"],
+  "github": "https://github.com/watashi-00/TBH_Overlay",
+  "link": "none",
+  "featured": true,
+  "visual": {
+    "type": "svg",
+    "path": "svg/tbh-overlay.svg"
+  }
+}
