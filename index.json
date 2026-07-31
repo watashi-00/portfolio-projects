@@ -3,5 +3,8 @@
   "hero": "hero.json",
   "about": "about.json",
   "contact": "contact.json",
-  "projects": ["gatebridge.json"]
+  "projects": [
+    "gatebridge.json",
+    "shiori.json"
+  ]
 }
