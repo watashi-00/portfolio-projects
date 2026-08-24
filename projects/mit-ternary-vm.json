@@ -1,0 +1,15 @@
+{
+  "id": "12",
+  "title": "MIT Ternary VM",
+  "category": "Systems & Virtual Machines",
+  "year": "2026",
+  "desc": "Open-source ternary virtual machine with native binary compatibility for high-performance and experimental ternary logic computing.",
+  "tags": ["C", "Ternary Logic", "Virtual Machine", "Systems Programming"],
+  "github": "https://github.com/watashi-00/MIT_Ternary_VM",
+  "link": "none",
+  "featured": false,
+  "visual": {
+    "type": "svg",
+    "path": "svg/mit-ternary-vm.svg"
+  }
+}

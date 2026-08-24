@@ -12,6 +12,10 @@
     "gpu-setup.json",
     "xnv.json",
     "poc-chatgpt-scraper.json",
-    "polyglot-dsa.json"
+    "polyglot-dsa.json",
+    "claude-code-router.json",
+    "hexacore-engine.json",
+    "mit-ternary-vm.json",
+    "systems-jvm-roadmap.json"
   ]
 }

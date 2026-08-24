@@ -1,0 +1,15 @@
+{
+  "id": "11",
+  "title": "HexaCore Engine",
+  "category": "Vulkan & C++ UI Engine",
+  "year": "2026",
+  "desc": "High-performance Vulkan/C++ UI engine with native JavaScript bindings and 90% reduced memory footprint compared to standard web views.",
+  "tags": ["Vulkan", "C++", "UI Engine", "High Performance", "JS Integration"],
+  "github": "https://github.com/watashi-00/Hexacore_Engine",
+  "link": "none",
+  "featured": true,
+  "visual": {
+    "type": "svg",
+    "path": "svg/hexacore-engine.svg"
+  }
+}

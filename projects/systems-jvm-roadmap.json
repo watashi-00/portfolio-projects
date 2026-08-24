@@ -1,0 +1,15 @@
+{
+  "id": "13",
+  "title": "Systems & JVM Engineering Roadmap",
+  "category": "Systems & JVM Architecture",
+  "year": "2026",
+  "desc": "Curated technical roadmap focused on low-level JVM internals, Linux systems programming, eBPF, compilers, and high-throughput networking.",
+  "tags": ["JVM Internals", "Linux", "Compilers", "Performance Engineering"],
+  "github": "https://github.com/watashi-00/Systems-JVM-Engineering-Roadmap",
+  "link": "none",
+  "featured": false,
+  "visual": {
+    "type": "svg",
+    "path": "svg/systems-jvm-roadmap.svg"
+  }
+}
