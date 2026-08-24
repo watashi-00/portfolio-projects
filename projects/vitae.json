@@ -1,0 +1,15 @@
+{
+  "id": "19",
+  "title": "Vitae - Resume Builder & ATS AI Optimizer",
+  "category": "Developer Tools & AI Productivity",
+  "year": "2026",
+  "desc": "Automated environment for managing, editing, and compiling professional resumes with HTML-to-PDF compilation and targeted ATS keyword optimization using custom AI agent skills.",
+  "tags": ["TypeScript", "Node.js", "ATS Optimization", "PDF Compiler", "AI Skill"],
+  "github": "https://github.com/watashi-00/vitae",
+  "link": "none",
+  "featured": false,
+  "visual": {
+    "type": "svg",
+    "path": "svg/vitae.svg"
+  }
+}

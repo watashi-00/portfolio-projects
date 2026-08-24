@@ -18,6 +18,9 @@
     "systems-jvm-roadmap.json",
     "site-package-manager.json",
     "jsqlparser-clickhouse.json",
-    "drive-organizer-agent.json"
+    "drive-organizer-agent.json",
+    "spm-veneer-coder.json",
+    "bitcast.json",
+    "vitae.json"
   ]
 }
