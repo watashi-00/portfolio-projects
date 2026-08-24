@@ -1,10 +1,17 @@
 {
-  "id": "10",
+  "id": "ext-dsa",
   "title": "Polyglot Data Structures & Algorithms",
   "category": "Algorithms & Data Structures Monorepo",
   "year": "2026",
   "desc": "Comprehensive reference library of advanced data structures, graph algorithms, and concurrent lock-free collections implemented across Java and system languages.",
-  "tags": ["Java", "Algorithms", "Data Structures", "Graph Theory", "Lock-Free", "Performance"],
+  "tags": [
+    "Java",
+    "Algorithms",
+    "Data Structures",
+    "Graph Theory",
+    "Lock-Free",
+    "Performance"
+  ],
   "github": "https://github.com/watashi-00/polyglot-dsa",
   "link": "none",
   "featured": true,

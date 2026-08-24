@@ -1,10 +1,17 @@
 {
-  "id": "15",
+  "id": "02",
   "title": "JSqlParser - ClickHouse ARRAY JOIN Support",
   "category": "Open Source Contribution / SQL Parsers",
   "year": "2026",
   "desc": "Implemented support for ClickHouse [LEFT] ARRAY JOIN clauses in JSqlParser Java compiler grammar (JavaCC), AST transformations, formatting, and unit tests (PR #2482).",
-  "tags": ["Java", "JavaCC", "AST", "SQL Parser", "Open Source", "ClickHouse"],
+  "tags": [
+    "Java",
+    "JavaCC",
+    "AST",
+    "SQL Parser",
+    "Open Source",
+    "ClickHouse"
+  ],
   "github": "https://github.com/JSQLParser/JSqlParser/pull/2482",
   "link": "https://github.com/JSQLParser/JSqlParser/pull/2482",
   "featured": true,

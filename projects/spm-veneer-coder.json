@@ -1,10 +1,16 @@
 {
-  "id": "17",
+  "id": "04",
   "title": "Veneer Coder & LLM Fine-Tuning Framework",
   "category": "AI / LLM Fine-Tuning & Subagents",
   "year": "2026",
   "desc": "Backend-agnostic fine-tuning orchestration framework and compiler-aware LLM subagent for generating Veneer Spec (.vnr) code with self-correcting diagnostic loops.",
-  "tags": ["Python", "LLM Fine-Tuning", "AI Subagents", "Compiler-Aware", "Dataset Orchestration"],
+  "tags": [
+    "Python",
+    "LLM Fine-Tuning",
+    "AI Subagents",
+    "Compiler-Aware",
+    "Dataset Orchestration"
+  ],
   "github": "https://github.com/spm-ecosystem/spm-veneer-coder",
   "link": "none",
   "featured": true,

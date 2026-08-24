@@ -1,10 +1,17 @@
 {
-  "id": "14",
+  "id": "05",
   "title": "Site Package Manager (SPM) Ecosystem",
   "category": "Web Modernization & Compiler Infrastructure",
   "year": "2026",
   "desc": "Comprehensive web modernization suite: Chrome MV3 extension with Shadow DOM injection, high-performance C++ CLI compiler & hot-reload dev server, VS Code extension, and shared UI component system.",
-  "tags": ["C++", "TypeScript", "React 18", "Chrome MV3", "Shadow DOM", "VS Code Extension"],
+  "tags": [
+    "C++",
+    "TypeScript",
+    "React 18",
+    "Chrome MV3",
+    "Shadow DOM",
+    "VS Code Extension"
+  ],
   "github": "https://github.com/spm-ecosystem/site-package-manager",
   "link": "none",
   "featured": true,

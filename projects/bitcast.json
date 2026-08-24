@@ -1,10 +1,16 @@
 {
-  "id": "18",
+  "id": "08",
   "title": "Bitcast - Video Streaming Platform",
   "category": "Media Engineering & Streaming",
   "year": "2026",
   "desc": "Open-source, self-hosted video streaming platform with chunked file uploads, media processing pipeline, and low-latency streaming architecture.",
-  "tags": ["Java", "Spring Boot", "Video Streaming", "Chunked Uploads", "Media Pipeline"],
+  "tags": [
+    "Java",
+    "Spring Boot",
+    "Video Streaming",
+    "Chunked Uploads",
+    "Media Pipeline"
+  ],
   "github": "https://github.com/watashi-00/tubelab",
   "link": "none",
   "featured": true,
