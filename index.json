@@ -13,9 +13,10 @@
     "xnv.json",
     "poc-chatgpt-scraper.json",
     "polyglot-dsa.json",
-    "claude-code-router.json",
     "hexacore-engine.json",
     "mit-ternary-vm.json",
-    "systems-jvm-roadmap.json"
+    "systems-jvm-roadmap.json",
+    "site-package-manager.json",
+    "jsqlparser-clickhouse.json"
   ]
 }
