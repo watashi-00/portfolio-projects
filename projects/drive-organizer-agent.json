@@ -1,0 +1,15 @@
+{
+  "id": "16",
+  "title": "Drive Organizer Agent",
+  "category": "AI Tools & Cloud Automation",
+  "year": "2026",
+  "desc": "Agent-friendly Google Drive organization toolkit built with Python and Google Drive API. Features OAuth2 authentication, automated file & directory classification, and AI agent integration.",
+  "tags": ["Python", "Google Drive API", "OAuth2", "AI Agent", "Cloud Automation"],
+  "github": "https://github.com/watashi-00/drive-organizer-agent",
+  "link": "none",
+  "featured": true,
+  "visual": {
+    "type": "svg",
+    "path": "svg/drive-organizer-agent.svg"
+  }
+}

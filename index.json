@@ -17,6 +17,7 @@
     "mit-ternary-vm.json",
     "systems-jvm-roadmap.json",
     "site-package-manager.json",
-    "jsqlparser-clickhouse.json"
+    "jsqlparser-clickhouse.json",
+    "drive-organizer-agent.json"
   ]
 }
