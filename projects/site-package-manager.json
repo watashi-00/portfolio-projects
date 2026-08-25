@@ -18,5 +18,9 @@
   "visual": {
     "type": "svg",
     "path": "svg/site-package-manager.svg"
-  }
+  },
+  "skill_ids": [
+    "spm-cli",
+    "cpp"
+  ]
 }

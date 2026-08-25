@@ -18,5 +18,9 @@
   "visual": {
     "type": "svg",
     "path": "svg/source-overlay-plugin.svg"
-  }
+  },
+  "skill_ids": [
+    "java",
+    "javacc"
+  ]
 }

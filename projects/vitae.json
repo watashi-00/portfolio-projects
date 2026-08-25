@@ -17,5 +17,9 @@
   "visual": {
     "type": "svg",
     "path": "svg/vitae.svg"
-  }
+  },
+  "skill_ids": [
+    "llm-subagents",
+    "python-agent"
+  ]
 }

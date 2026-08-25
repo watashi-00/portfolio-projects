@@ -16,5 +16,10 @@
   "visual": {
     "type": "svg",
     "path": "svg/systems-jvm-roadmap.svg"
-  }
+  },
+  "skill_ids": [
+    "java",
+    "ebpf",
+    "cpp"
+  ]
 }

@@ -18,5 +18,9 @@
   "visual": {
     "type": "svg",
     "path": "svg/xnv.svg"
-  }
+  },
+  "skill_ids": [
+    "cpp",
+    "python-agent"
+  ]
 }

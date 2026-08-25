@@ -18,5 +18,9 @@
   "visual": {
     "type": "svg",
     "path": "svg/gatebridge.svg"
-  }
+  },
+  "skill_ids": [
+    "java",
+    "loom"
+  ]
 }

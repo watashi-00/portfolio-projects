@@ -19,5 +19,8 @@
   "visual": {
     "type": "svg",
     "path": "svg/portfolio-cms.svg"
-  }
+  },
+  "skill_ids": [
+    "spm-cli"
+  ]
 }

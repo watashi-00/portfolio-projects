@@ -17,5 +17,9 @@
   "visual": {
     "type": "svg",
     "path": "svg/bitcast.svg"
-  }
+  },
+  "skill_ids": [
+    "java",
+    "spring"
+  ]
 }

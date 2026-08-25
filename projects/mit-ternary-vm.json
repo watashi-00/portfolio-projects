@@ -16,5 +16,9 @@
   "visual": {
     "type": "svg",
     "path": "svg/mit-ternary-vm.svg"
-  }
+  },
+  "skill_ids": [
+    "cpp",
+    "ternary-vm"
+  ]
 }

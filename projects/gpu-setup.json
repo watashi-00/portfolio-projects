@@ -18,5 +18,9 @@
   "visual": {
     "type": "svg",
     "path": "svg/gpu-setup.svg"
-  }
+  },
+  "skill_ids": [
+    "wayland",
+    "ebpf"
+  ]
 }

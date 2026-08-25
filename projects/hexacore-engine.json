@@ -17,5 +17,9 @@
   "visual": {
     "type": "svg",
     "path": "svg/hexacore-engine.svg"
-  }
+  },
+  "skill_ids": [
+    "cpp",
+    "vulkan"
+  ]
 }

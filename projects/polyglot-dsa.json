@@ -18,5 +18,9 @@
   "visual": {
     "type": "svg",
     "path": "svg/polyglot-dsa.svg"
-  }
+  },
+  "skill_ids": [
+    "cpp",
+    "java"
+  ]
 }

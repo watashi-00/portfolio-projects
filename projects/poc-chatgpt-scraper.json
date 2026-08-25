@@ -18,5 +18,8 @@
   "visual": {
     "type": "svg",
     "path": "svg/poc-chatgpt-scraper.svg"
-  }
+  },
+  "skill_ids": [
+    "llm-subagents"
+  ]
 }

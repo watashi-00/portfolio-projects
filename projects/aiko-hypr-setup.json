@@ -19,5 +19,8 @@
   "visual": {
     "type": "svg",
     "path": "svg/aiko-hypr-setup.svg"
-  }
+  },
+  "skill_ids": [
+    "wayland"
+  ]
 }

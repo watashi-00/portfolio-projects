@@ -17,5 +17,10 @@
   "visual": {
     "type": "svg",
     "path": "svg/spm-veneer-coder.svg"
-  }
+  },
+  "skill_ids": [
+    "spm-cli",
+    "llm-subagents",
+    "javacc"
+  ]
 }

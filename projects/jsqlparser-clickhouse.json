@@ -18,5 +18,9 @@
   "visual": {
     "type": "svg",
     "path": "svg/jsqlparser.svg"
-  }
+  },
+  "skill_ids": [
+    "java",
+    "javacc"
+  ]
 }

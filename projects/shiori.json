@@ -20,5 +20,10 @@
   "visual": {
     "type": "svg",
     "path": "svg/shiori.svg"
-  }
+  },
+  "skill_ids": [
+    "llm-subagents",
+    "java",
+    "python-agent"
+  ]
 }

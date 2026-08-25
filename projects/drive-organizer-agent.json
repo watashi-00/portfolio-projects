@@ -17,5 +17,8 @@
   "visual": {
     "type": "svg",
     "path": "svg/drive-organizer-agent.svg"
-  }
+  },
+  "skill_ids": [
+    "python-agent"
+  ]
 }
